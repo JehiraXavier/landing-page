@@ -7,16 +7,16 @@
 }
 
 .container {
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    -webkit-filter: blur(3px);
-    filter: blur(3px);
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
 }
 
 body {
-    background-color: #010103;
+  background-color: #010103;
 }
 
 main {
@@ -29,54 +29,54 @@ main {
 }
 
 main > div span {
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-size: 2rem;
-    color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-size: 2rem;
+  color: #ffffff;
 }
 
 main > div h1 {
-    text-transform: capitalize;
-    letter-spacing: 3px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-size: clamp(3.4375rem, 3.25rem + 0.75vw, 4rem);
-    background-color: #005baa;
-    background-image: linear-gradient(45deg, #ffffff, #000000);
-    background-size: 100%;
-    background-repeat: repeat;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: clamp(3.4375rem, 3.25rem + 0.75vw, 4rem);
+  background-color: #005baa;
+  background-image: linear-gradient(45deg, #ffffff, #000000);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
 main > div hr {
-    display: block;
-    background: #ffffff;
-    height: 0.25rem;
-    width: 20rem;
-    border: none;
-    margin: 1.125rem 0 1.875rem 0;
+  display: block;
+  background: #ffffff;
+  height: 0.25rem;
+  width: 20rem;
+  border: none;
+  margin: 1.125rem 0 1.875rem 0;
 }
 
 main > div p {
-    line-height: 1.6;
-    color: silver;
-    font-size: 20px;
-    font-weight: 500;
+  line-height: 1.6;
+  color: silver;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 main a {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    font-weight: 700;
-    background: wheat;
-    border-radius: 3.125rem;
-    transition: 0.3s ease-in-out;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+  background: wheat;
+  border-radius: 3.125rem;
+  transition: 0.3s ease-in-out;
 }
 
 main > div > a {
@@ -115,27 +115,27 @@ main > div > a:hover {
 }
 
 .swiper-slide h2 {
-    color: wheat;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 1.4;
-    margin-bottom: 0.625rem;
-    padding: 0 0 0 1.563rem;
-    text-transform: uppercase;
+  color: wheat;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-bottom: 0.625rem;
+  padding: 0 0 0 1.563rem;
+  text-transform: uppercase;
 }
 
 .swiper-slide p {
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    padding: 0 1.563rem;
-    line-height: 1.6;
-    font-size: 1em;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  padding: 0 1.563rem;
+  line-height: 1.6;
+  font-size: 1em;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .swiper-slide a {
@@ -145,9 +145,9 @@ main > div > a:hover {
 }
 
 .swiper-slide a:hover {
-    border: 0.125rem solid black;
-    color: white;
-    background-color: silver;
+  border: 0.125rem solid black;
+  color: white;
+  background-color: silver;
 }
 
 .swiper-slide div {
@@ -162,23 +162,28 @@ main > div > a:hover {
 }
 
 .swiper-slide--one {
-  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("./sangakkara.webp") no-repeat 50% 50%/cover;
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("./sangakkara.webp") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--two {
-  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("./dhoni.webp") no-repeat 50% 50%/cover;
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("./dhoni.webp") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--three {
-  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("./cook.webp") no-repeat 50% 50%/cover;
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("./cook.webp") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--four {
-  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("./lara.jpg") no-repeat 50% 50%/cover;
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("./lara.jpg") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--five {
-  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("./ponting.webp") no-repeat 50% 50%/cover;
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("./ponting.webp") no-repeat 50% 50% / cover;
 }
 
 .swiper-3d .swiper-slide-shadow-left,
