@@ -163,27 +163,27 @@ main > div > a:hover {
 
 .swiper-slide--one {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("./sangakkara.webp") no-repeat 50% 50% / cover;
+    url("images/sangakkara.webp") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--two {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("./dhoni.webp") no-repeat 50% 50% / cover;
+    url("images/dhoni.webp") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--three {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("./cook.webp") no-repeat 50% 50% / cover;
+    url("images/cook.webp") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--four {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("./lara.jpg") no-repeat 50% 50% / cover;
+    url("images/lara.jpg") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--five {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("./ponting.webp") no-repeat 50% 50% / cover;
+    url("images/ponting.webp") no-repeat 50% 50% / cover;
 }
 
 .swiper-3d .swiper-slide-shadow-left,
